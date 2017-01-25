@@ -1,0 +1,25 @@
+import { Component, Input, OnInit } from '@angular/core';
+import { Album } from '../album.model'
+import { AlbumService } from '../album.service';
+
+
+@Component({
+  selector: 'app-edit-album',
+  templateUrl: './edit-album.component.html',
+  providers: [AlbumService]
+})
+
+
+export class EditAlbumComponent implements OnInit {
+  @Input() selectedAlbum;
+
+  constructor(private albumService: AlbumService) { }
+
+  ngOnInit() {
+  }
+
+  beginUpdatingAlbum(albumToUpdate){
+    this.albumService.updateAlbum(albumToUpdate);
+  }
+
+}
