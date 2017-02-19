@@ -1,31 +1,46 @@
-# OnlineStore
+# _Online Store_
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.26.
+#### _A web application that displays items for sale. 19 Jan 2017_
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+#### By _**Jim Padilla**_
 
-## Code scaffolding
+## Description
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+This Angular 2 app is an easy-to-use app that allows the user to post items to the database and let's the user see them in the marketplace section.
 
-## Build
+## Setup/Installation Requirements
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+* _In the Terminal, run:_
+```
+git clone https://github.com/JPCodes/online-store-angular2
+cd online-store-angular2
+npm install
+bower install
+gulp build
+gulp serve
+```
+* _Then, in any modern browser, navigate to:_
+```
+localhost:4200
+```
 
-## Running unit tests
+## Support and contact details
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+_Github: [JPCodes](https://github.com/JPCodes)_
 
-## Running end-to-end tests
+## Technologies Used
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+* _HTML_
+* _CSS_
+  * _Bootstrap_
+* _JavaScript_
+  * _TypeScript_
+  * _Angular 2_
+* _Gulp_
+* _Bower_
 
-## Deploying to GitHub Pages
+### License
 
-Run `ng github-pages:deploy` to deploy to GitHub Pages.
+MIT
 
-## Further help
-
-To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Copyright (c) 2016 **_Jim Padilla_**
